@@ -94,25 +94,11 @@ repositories {
             includeGroup "curse.maven"
         }
     }
+
     maven {
         // location of the maven that hosts JEI files (And TiC)
         name "Progwml6 maven"
         url "https://dvs1.progwml6.com/files/maven/"
-    }
-    maven {
-        //location of the maven for mixed mappings and registrate
-        name = "tterrag maven"
-        url = "https://maven.tterrag.com/"
-    }
-    maven {
-        // location of the maven that hosts JEI files (And TiC)
-        name "Progwml6 maven"
-        url "https://dvs1.progwml6.com/files/maven/"
-    }
-    maven {
-        //location of the maven for vazkii's mods
-        name "blamejared"
-        url "https://maven.blamejared.com/"
     }
 }
 
@@ -125,7 +111,6 @@ dependencies {
     implementation fg.deobf("curse.maven:flywheel-486392:3419392")
     
     
-    //runtimeOnly fg.deobf("curse.maven:simply-jetpacks-2-251792:3203659")
     annotationProcessor 'org.spongepowered:mixin:0.8:processor'
 }
 
@@ -134,7 +119,7 @@ jar {
         attributes([
             "Specification-Title": "testmod",
             "Specification-Vendor": "xaros74",
-            "Specification-Version": "1", // We are version 1 of ourselves
+            "Specification-Version": "1",
             "Implementation-Title": project.name,
             "Implementation-Version": "${version}",
             "Implementation-Vendor" :"xaros74",
