@@ -1,0 +1,18 @@
+{
+	"block.testmod.oak_cogwheel": "Oak cogwheel",
+	"block.testmod.birch_cogwheel": "Birch cogwheel",
+	"block.testmod.jungle_cogwheel": "Jungle cogwheel",
+	"block.testmod.acacia_cogwheel": "Acacia cogwheel",
+	"block.testmod.dark_oak_cogwheel": "Dark oak cogwheel",
+	"block.testmod.crimson_cogwheel": "crimson cogwheel",
+	"block.testmod.warped_cogwheel": "Warped cogwheel",
+	"block.testmod.large_oak_cogwheel": "Large oak cogwheel",
+	"block.testmod.large_birch_cogwheel": "Large birch cogwheel",
+	"block.testmod.large_jungle_cogwheel": "Large jugnle cogwheel",
+	"block.testmod.large_acacia_cogwheel": "Large acacia cogwheel",
+	"block.testmod.large_dark_oak_cogwheel": "Large dark oak cogwheel",
+	"block.testmod.large_crimson_cogwheel": "Large crimson cogwheel",
+	"block.testmod.large_warped_cogwheel": "Large warped cogwheel",
+	"itemGroup.testmod.test_group": "Test"
+	
+}

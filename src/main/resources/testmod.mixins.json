@@ -1,0 +1,10 @@
+{
+    "required": true,
+    "priority": 1000,
+    "package": "com.xaros74.test.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "refmap": "test.refmap.json",
+    "mixins": [
+    ],
+    "minVersion": "0.8"
+}

@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "testmod:block/large_warped_cogwheel",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "testmod:block/large_warped_cogwheel"
+    },
+    "axis=z": {
+      "model": "testmod:block/large_warped_cogwheel",
+      "x": 90,
+      "y": 180
+    }
+  }
+}

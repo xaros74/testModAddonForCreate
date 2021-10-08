@@ -1,0 +1,47 @@
+# The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
+modLoader="javafml" #mandatory
+# A version range to match for said mod loader - for regular FML @Mod it will be the forge version
+loaderVersion="[35,)"
+# The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
+# Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
+license="MIT License, Copyright 2021 MRH0"
+# A list of mods - how many allowed here is determined by the individual mod loader
+[[mods]] #mandatory
+modId="testmod" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="Testmod" #mandatory
+# A text field displayed in the mod UI
+credits="Special Thanks to the Forge Discord and the Create Team." #optional
+# A text field displayed in the mod UI
+authors="xaros74" #optional
+# The description text for the mod (multi line!) (#mandatory)
+description='''
+This is a test!!
+'''
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.testmod]] #optional
+    # the modid of the dependency
+    modId="forge" #mandatory
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true #mandatory
+    # The version range of the dependency
+    versionRange="[35,)" #mandatory
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+    
+[[dependencies.testmod]]
+    modId="create"
+    mandatory=true
+    versionRange="[mc1.16.5_v0.3.2d,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.testmod]]
+    modId="minecraft"
+    mandatory=true
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
