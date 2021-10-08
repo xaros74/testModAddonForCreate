@@ -11,8 +11,6 @@ modId="testmod" #mandatory
 version="${file.jarVersion}" #mandatory
 displayName="Testmod" #mandatory
 # A text field displayed in the mod UI
-credits="Special Thanks to the Forge Discord and the Create Team." #optional
-# A text field displayed in the mod UI
 authors="xaros74" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
