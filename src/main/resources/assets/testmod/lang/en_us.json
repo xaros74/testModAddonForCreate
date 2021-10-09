@@ -15,6 +15,12 @@
 	"block.testmod.large_warped_cogwheel": "Large warped cogwheel",
 	
 	"item.testmod.incomplete_large_oak_cogwheel": "Incomplete large oak cogwheel",
+	"item.testmod.incomplete_large_birch_cogwheel": "Incomplete large birch cogwheel",
+	"item.testmod.incomplete_large_jungle_cogwheel": "Incomplete large jungle cogwheel",
+	"item.testmod.incomplete_large_acacia_cogwheel": "Incomplete large acacia cogwheel",
+	"item.testmod.incomplete_large_dark_oak_cogwheel": "Incomplete large dark oak cogwheel",
+	"item.testmod.incomplete_large_crimson_cogwheel": "Incomplete large crimson cogwheel",
+	"item.testmod.incomplete_large_warped_cogwheel": "Incomplete large warped cogwheel",
 	
 	"itemGroup.testmod.test_group": "Test",
 	
