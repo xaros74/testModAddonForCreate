@@ -7,7 +7,9 @@ import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.simibubi.create.repack.registrate.util.NonNullLazyValue;
 import com.xaros74.testmod.groups.TestGroup;
 import com.xaros74.testmod.index.AllModBlocks;
+import com.xaros74.testmod.index.AllModItems;
 import com.xaros74.testmod.index.AllTilesEntities;
+import com.xaros74.testmod.ponder.TestPonder;
 
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
@@ -43,9 +45,8 @@ public class TestMod {
 
 		new TestGroup("test_group");
 		
-		
-		
 		AllModBlocks.register();
+		AllModItems.register();
 		AllTilesEntities.register();
 	}
 
@@ -54,6 +55,7 @@ public class TestMod {
 	}
 	
 	private void doClientStuff(final FMLClientSetupEvent event) {
+		event.enqueueWork(TestPonder::register);
 	}
 
 	private void enqueueIMC(final InterModEnqueueEvent event) {
