@@ -1,0 +1,81 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:andesite_alloy"
+  },
+  "transitionalItem": {
+    "item": "testmod:incomplete_large_acacia_cogwheel"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "testmod:incomplete_large_acacia_cogwheel"
+        },
+        {
+          "item": "minecraft:acacia_planks"
+        }
+      ],
+      "results": [
+        {
+          "item": "testmod:incomplete_large_acacia_cogwheel"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "testmod:incomplete_large_acacia_cogwheel"
+        },
+        {
+          "item": "minecraft:acacia_button"
+        }
+      ],
+      "results": [
+        {
+          "item": "testmod:incomplete_large_acacia_cogwheel"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "testmod:incomplete_large_acacia_cogwheel"
+        }
+      ],
+      "results": [
+        {
+          "item": "testmod:incomplete_large_acacia_cogwheel"
+        }
+      ],
+      "processingTime": 50
+    }
+  ],
+  "results": [
+    {
+      "item": "testmod:large_acacia_cogwheel",
+      "count": 6,
+      "chance": 32.0
+    },
+    {
+      "item": "create:andesite_alloy",
+      "chance": 2.0
+    },
+    {
+      "item": "minecraft:andesite"
+    },
+    {
+      "item": "testmod:acacia_cogwheel"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    }
+  ],
+  "loops": 3
+}

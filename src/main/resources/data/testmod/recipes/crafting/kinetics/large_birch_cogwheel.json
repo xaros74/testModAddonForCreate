@@ -7,17 +7,17 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:spruce_button"
+      "item": "minecraft:birch_button"
     },
     "C": {
       "item": "create:andesite_alloy"
     },
     "D": {
-      "item": "minecraft:spruce_planks"
+      "item": "minecraft:birch_planks"
     }
   },
   "result": {
-    "item": "create:large_cogwheel",
+    "item": "testmod:large_birch_cogwheel",
     "count": 2
   }
 }
